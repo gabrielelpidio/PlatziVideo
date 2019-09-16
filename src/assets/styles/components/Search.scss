@@ -23,7 +23,11 @@
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
-  width: 70%;
+}
+
+.main__search--not-found {
+  padding: 60px;
+  color: white;
 }
 
 ::placeholder {

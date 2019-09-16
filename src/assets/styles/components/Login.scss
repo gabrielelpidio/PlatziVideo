@@ -17,9 +17,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 700px;
   padding: 60px 68px 40px;
-  width: 300px;
 }
 
 .login__container--form {
@@ -69,12 +67,12 @@
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
+  padding: 0 5px;
 }
 
 .login__container--register a:hover {
   text-decoration: underline;
 }
-
 
 @media only screen and (max-width: 600px) {
   .login__container {
